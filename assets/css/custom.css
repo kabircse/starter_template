@@ -1,0 +1,46 @@
+/*Reset all elements*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.site-title{
+  color: #eaeef2;
+}
+.blog-head {
+    margin-bottom: 5px;
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+    box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+}
+nav a:hover{
+  color: black;
+}
+nav a{
+  color: #cdddeb;
+}
+.main{
+  margin-top: 70px;
+}
+.post-block{
+  height: 180px;
+  margin-bottom: 15px;
+}
+.post-body {
+  margin-top: -145px;
+  margin-left: 190px;
+}
+.post-text{
+  margin-top: 10px;
+}
+.pagination-block{
+  margin-left: 30%;
+}
+.post-lists{
+  border-right-style: inset;
+}
+.search-bar {
+    margin-bottom: 20px;
+}
+.search-btn {
+  margin-left: 64px;
+}
