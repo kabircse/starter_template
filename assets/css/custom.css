@@ -25,12 +25,11 @@ nav a{
   height: 180px;
   margin-bottom: 15px;
 }
-.post-body {
-  margin-top: -145px;
-  margin-left: 190px;
-}
-.post-text{
-  margin-top: 10px;
+/*.post-tag-text{
+  margin-left: -7%;
+}*/
+.post-short-text{
+  margin-top: 5px;
 }
 .pagination-block{
   margin-left: 30%;
@@ -39,8 +38,22 @@ nav a{
   border-right-style: inset;
 }
 .search-bar {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.search-btn {
-  margin-left: 64px;
+.sidebar-post-img {
+  margin-right: 5px;
+  margin-left: -10px;
+}
+.single-post-img{
+  margin-bottom: 5px;
+}
+.single-post-tag-text{
+  margin-left: -15px;
+}
+.single-post-text{
+  margin-top: 5px;
+}
+.author-history {
+  margin-top: 20px;
+  line-height: .1;
 }
