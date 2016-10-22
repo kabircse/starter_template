@@ -1,59 +1,73 @@
 /*Reset all elements*/
-*{
-  margin: 0;
-  padding: 0;
+
+@import "reset.css";
+.site-title {
+    color: #eaeef2;
 }
-.site-title{
-  color: #eaeef2;
-}
+
 .blog-head {
     margin-bottom: 5px;
     background-color: #428bca;
-    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
-    box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
 }
-nav a:hover{
-  color: black;
+
+nav a:hover {
+    color: black;
 }
-nav a{
-  color: #cdddeb;
+
+nav a {
+    color: #cdddeb;
 }
-.main{
-  margin-top: 70px;
+
+.main {
+    margin-top: 70px;
 }
-.post-block{
-  height: 180px;
-  margin-bottom: 15px;
+
+.post-block {
+    height: 180px;
+    margin-bottom: 15px;
 }
+
+
 /*.post-tag-text{
   margin-left: -7%;
 }*/
-.post-short-text{
-  margin-top: 5px;
+
+.post-short-text {
+    margin-top: 5px;
 }
-.pagination-block{
-  margin-left: 30%;
+
+.pagination-block {
+    margin-left: 30%;
 }
-.post-lists{
-  border-right-style: inset;
+
+.post-lists {
+    border-right-style: inset;
 }
+
 .search-bar {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .sidebar-post-img {
-  margin-right: 5px;
-  margin-left: -10px;
+    margin-right: 5px;
+    margin-left: -10px;
 }
-.single-post-img{
-  margin-bottom: 5px;
+
+.single-post-img {
+    margin-bottom: 5px;
 }
-.single-post-tag-text{
-  margin-left: -15px;
+
+.single-post-tag-text {
+    margin-left: -15px;
 }
-.single-post-text{
-  margin-top: 5px;
+
+.single-post-text {
+    margin-top: 5px;
 }
+
 .author-history {
-  margin-top: 20px;
-  line-height: .1;
+    margin-top: 20px;
+    line-height: .1;
 }
