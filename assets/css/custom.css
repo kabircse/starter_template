@@ -79,6 +79,20 @@ nav a {
     margin-left: -28px;
 }
 
+/*product post margin
+---------------------------------------------------*/
+.product-post{
+  margin-left: 3px;
+}
+/*top sellign product post margin
+---------------------------------------------------*/
+.top-selling-product:not:first-child,.top-rated-product:not:first-child{
+  margin-left: -10px;
+}
+.top-selling,.top-rated{
+  border-top-style: ridge;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 .footer {
