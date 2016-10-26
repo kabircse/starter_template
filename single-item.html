@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css" />
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/custom.css" />
+    <!--Shop CSS-->
+    <link rel="stylesheet" href="assets/css/shop.css" />
     <!--Slider CSS-->
     <link rel="stylesheet" href="assets/lib/slider/slider.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -44,6 +46,9 @@
                             <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link" href="shop.html">E-Shop</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item">
+                              <a class="nav-link btn btn-danger btn-sm" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> 100</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -53,32 +58,32 @@
     <!-- /header -->
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row m-t-15">
                 <div class="col-md-12">
                     <div class="row">
                         <section class="single-item">
                           <div class="col-md-4">
                             <div class="row">
-                                <img class="img-fluid" src="assets/images/products/thumb/01.png" alt="Carousel 4">
+                                <img class="img-fluid top-img" src="assets/images/products/thumb/01.png" alt="Carousel 4">
                             </div>
                             <div class="row m-5">
-                                <ul class="list-inline">
+                                <ul class="list-inline navigate-images">
                                   <li class="list-inline-item li-item">
-                                    <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/01.png" alt="Carousel 4"></a>
+                                    <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/02.png" alt="Carousel 4"></a>
                                   </li>
                                   <li class="list-inline-item li-item">
-                                    <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/01.png" alt="Carousel 4"></a>
+                                    <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/03.png" alt="Carousel 4"></a>
                                   </li>
-                                      <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/01.png" alt="Carousel 4"></a>
+                                      <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/04.png" alt="Carousel 4"></a>
                                       <li class="list-inline-item li-item">
                                   </li>
                                   <li class="list-inline-item li-item">
-                                      <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/01.png" alt="Carousel 4"></a>
+                                      <a href="" id="item"><img class="li-img" src="assets/images/products/thumb/05.png" alt="Carousel 4"></a>
                                   </li>
                                 </ul>
                             </div>
                           </div>
-                          <div class="col-md-6">
+                          <div class="col-md-5 product-desc">
                                 <h3>Product label</h3>
                                 <div class="row">
                                     <div class="col-sm-4">
@@ -103,16 +108,18 @@
                                   </div>
                               </div>
                               <div class="row">
-                                <div class="m-5"><strong><h3>$525</h3></strong></div>
+                                <div class="m-5"><strong><h3 class="m-5">$525</h3></strong></div>
                                   <div class="col-md-12">
                                     <p>Product Description. This is a good product. Made of several type of chemicals. This is a good product. Made of several type of chemicals.
                                       This is a good product. Made of several type of chemicals. This is a good product. Made of several type of chemicals.
                                     </p>
                                   <div class="row">
                                       <p class="add-cart-wish m-5">
+                                          <span class="m-5"><label class="pull-left"> Quantity: </label> <input type="number" name="quantity" class="input col-xs-2" value="1" min="1"></span>
                                           <a class="btn btn-outline-danger btn-sm" href="#add-to-cart" title="Add to cart" alt="Add to cart" data-toggle="tooltip" data-placement="top"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</a>
                                           <a class="btn btn-outline-primary btn-sm" href="#add-to-wishlist" title="Add to wishlist" alt="Add to wishlist" data-toggle="tooltip" data-placement="top"><i class="fa fa-heart-o" aria-hidden="true"></i></i></a>
                                       </p>
+                                    </form>
                                   </div>
                                 </div>
                               </div>
@@ -120,23 +127,23 @@
                           <div class="col-md-2">
                             <div class="row">
                               <div class="col-md-12">
-                              <ul class="list-inline">
-                                Share
-                                <li class="list-inline-item">
-                                  <a href=""><i class="fa fa-facebook-square fa-5" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                  <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                  <a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                  <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                                </li>
-                              </ul>
+                                <ul class="list-inline">
+                                  Share
+                                  <li class="list-inline-item">
+                                    <a href=""><i class="fa fa-facebook-square fa-5" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
-                          </div>
                           </div>
                         </section>
                     </div>
@@ -612,7 +619,7 @@
         window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')
     </script>
     <!-- Jquery remote files -->
-    <script src="ttps://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <!-- Tether for Bootstrap -->
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
     <!-- Bootstrap Script -->

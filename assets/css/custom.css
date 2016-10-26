@@ -79,76 +79,53 @@ nav a {
     margin-left: -28px;
 }
 
-/*product post margin
----------------------------------------------------*/
-.product-post{
-  margin-left: 3px;
-}
-.add-to-cart-wish{
-  display: none;
-}
-.card:hover .add-to-cart-wish{
-  display: inline-block;
-}
-
-/*top sellign product post margin
----------------------------------------------------*/
-.top-selling-product:not:first-child,.top-rated-product:not:first-child{
-  margin-left: -10px;
-}
-.top-selling,.top-rated{
-  border-top-style: ridge;
-}
-.product-caption-rating{
-  margin: 5px;
-}
-.top-rated-product,.top-selling-product{
-  padding: 0;
-}
-/*For using rating
----------------------------------------------------*/
-.star-rating{
-	font-size: 0;
-}
-.star-rating__wrap{
-	display: inline-block;
-	font-size: 0.8rem;
-}
-.star-rating__wrap:after{
-	content: "";
-	display: table;
-	clear: both;
-}
-.star-rating__ico{
-	float: right;
-	padding-left: 2px;
-	cursor: pointer;
-	color: #FFB300;
-}
-.star-rating__ico:last-child{
-	padding-left: 0;
-}
-.star-rating__input{
-	display: none;
-}
-.star-rating__ico:hover:before,
-.star-rating__ico:hover ~ .star-rating__ico:before,
-.star-rating__input:checked ~ .star-rating__ico:before
-{
-	content: "\f005";
-}
-.li-img{
-  width: 20%;
-}
-.li-item{
-  display: inline;
-}
+/*Common Style for all
+-----------------*/
 .m-5{
   margin: 5px;
 }
-
-
-
+.m-10{
+  margin: 10px;
+}
+.m-15{
+  margin: 15px;
+}
+.m-t-5{
+  margin-top: 5px;
+}
+.m-t-10{
+  margin-top: 10px;
+}
+.m-t-15{
+  margin-top: 15px;
+}
+.m-r-5{
+  margin-right: 5px;
+}
+.m-r-10{
+  margin-right: 10px;
+}
+.m-r-15{
+  margin-right: 15px;
+}
+.m-b-5{
+  margin-bottom: 5px;
+}
+.m-b-10{
+  margin-bottom: 10px;
+}
+.m-b-15{
+  margin-bottom: 15px;
+}
+.m-l-5{
+  margin-left: 5px;
+}
+.m-l-10{
+  margin-left: 10px;
+}
+.m-l-15{
+  margin-left: 15px;
+}
 
 
 
