@@ -103,8 +103,8 @@
                                         </div>
                                   </div>
                                   <div class="col-sm-8">
-                                    <a href="#" class="text text-xs-left" data-toggle="tooltip" data-placement="top" title="Total Views" alt="Total Views">120 Reviews</a> |
-                                    <a href="#" class="text text-xs-right" data-toggle="tooltip" data-placement="top" title="Make a review" alt="Make a review">Make a review</a>
+                                    <a href="#reviews" class="text text-xs-left" data-toggle="tooltip" data-placement="top" title="Total Views" alt="Total Views">120 Reviews</a> |
+                                    <a href="#reviews" class="text text-xs-right" data-toggle="tooltip" data-placement="top" title="Make a review" alt="Make a review">Make a review</a>
                                   </div>
                               </div>
                               <div class="row">
@@ -146,6 +146,267 @@
                             </div>
                           </div>
                         </section>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-9">
+                        <ul class="nav nav-tabs" id="collapse-tab">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-toggle="tab" data-target="#description">Description</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" data-target="#specifications">Specifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" data-target="#reviews">Reviews</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="description">
+                              <div class="card card-block">
+                                <h4>Product Description</h4>
+                                <p class="text-justify">
+                                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                  egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                                  Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                                  Mauris placerat eleifend leo.
+
+                                  Donec sed tincidunt lacus. Duis vehicula aliquam vestibulum. Aenean at mollis mi.
+                                  Cras ac urna sed nisi auctor venenatis ut id sapien. Vivamus commodo lacus lorem,
+                                  a tristique sapien tempus non. Donec fringilla cursus porttitor. Morbi quis massa
+                                  id mi pellentesque placerat. Nam scelerisque sit amet diam id blandit.
+                                  Nullam ultrices ligula at ligula tincidunt, sit amet aliquet mi pellentesque.
+                                  Aenean eget fermentum risus. Aenean eu ultricies nulla, id bibendum libero.
+                                  Vestibulum dui augue, malesuada nec tellus vel, egestas condimentum ipsum.
+                                  Vestibulum ut.
+
+                                  Integer semper quam turpis, id dapibus nunc ultrices at. Vestibulum eget orci lobortis,
+                                  imperdiet diam a, ornare eros. Nam porttitor rutrum massa, eu varius velit facilisis at.
+                                  Quisque porta elit et viverra suscipit. Proin laoreet, nisl et auctor mollis, felis sapien
+                                  aliquet felis, nec facilisis tellus enim vitae enim. Nam rhoncus enim diam, a consequat nisi
+                                  bibendum pulvinar. Donec aliquam lectus vitae ante pulvinar facilisis. Curabitur sed sem est.
+                                </p>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="specifications">
+                              <div class="card card-block">
+                                <h4>Product Specifications</h4>
+                                <table class="table table-striped table-sm">
+                                  <tbody>
+                                    <tr>
+                                      <td>Weight</td>
+                                      <td>45 kg</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Dimensions</td>
+                                      <td>16 x 20 x 45 cm</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Color</td>
+                                      <td>Black, Red</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Size</td>
+                                      <td>Extra Large, Large, Medium</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="reviews">
+                              <div class="row">
+                                <div class="card card-block">
+                                  <div class="card card-block">
+                                    <a class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                      Make a review
+                                    </a>
+                                    <form class="form collapse" id="collapseExample" role="form">
+                                        <div class="form-group row">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">Review</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="inputPassword30" placeholder="Type Your Review" rows="6"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="inputEmail3" placeholder="Type Your Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">E-mail</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="inputPassword3" placeholder="Type Your E-mail">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control btn btn-success" id="inputPassword32" value="Submit">
+                                            </div>
+                                        </div>
+                                    </form>
+                                  </div>
+                                <div class="row">
+                                  <p class="text-danger">Reviews</p>
+                                  <div class="card parent-comments">
+                                      <div class="col-sm-2 pull-sm-left comment-author">
+                                          <img class="img img-thumbnail" src="assets/images/thumb/thumb-01.jpg" alt="Author Pic">
+                                      </div>
+                                      <div class="card-block comment">
+                                          <a href="#">Admin - June 7,2016 </a>
+                                          <p>Nice post. Write again this type of post. We are with you for taking action against this rules.</p>
+                                      </div>
+                                  </div>
+                                  <div class="card parent-comments">
+                                      <div class="col-sm-2 pull-sm-left comment-author">
+                                          <img class="img img-thumbnail" src="assets/images/thumb/thumb-02.jpg" alt="Author Pic">
+                                      </div>
+                                      <div class="card-block comment">
+                                          <a href="#">Akif Talukder - June 25,2016 </a>
+                                          <p>Write again this type of post. We are with you for taking action against this rules.</p>
+                                      </div>
+                                  </div>
+                                  <div class="card parent-comments">
+                                      <div class="col-sm-2 pull-sm-left comment-author">
+                                          <img class="img img-thumbnail" src="assets/images/thumb/thumb-03.jpg" alt="Author Pic">
+                                      </div>
+                                      <div class="card-block comment">
+                                          <a href="#">Admin - August 17,2016 </a>
+                                          <p>Nice product</p>
+                                      </div>
+                                  </div>
+                                  <div class="card parent-comments">
+                                      <div class="col-sm-2 pull-sm-left comment-author">
+                                          <img class="img img-thumbnail" src="assets/images/thumb/thumb-04.jpg" alt="Author Pic">
+                                      </div>
+                                      <div class="card-block comment">
+                                          <a href="#">Jusf Uouf - October 21,2016 </a>
+                                          <p>Nice post. Write again this type of post. We are with you for taking action against this rules.
+                                            Nice post. Write again this type of post. We are with you for taking action against this rules.
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-md-3">
+                          <section class="top-selling">
+                            <p class="text">Similar Products</p>
+                            <div class="row">
+                                <div class="col-sm-4 top-selling-product">
+                                    <div class="card">
+                                        <div class="card-img-top card-img-top-250">
+                                            <img class="img-fluid" src="assets/images/products/thumb/04.png" alt="Carousel 4">
+                                        </div>
+                                        <div class="product-caption-rating">
+                                            <a href="#">Product label 1</a>
+                                            <p class="text text-xs-right"><strong>$525</strong></p>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <span class="star-rating">
+                                                        <span class="star-rating__wrap">
+                                                          <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                        </span>
+                                                    </span>
+                                                    <a href="#" class="text text-xs-right" data-toggle="tooltip" data-placement="top" title="Total Views" alt="Total Views"><i class="fa fa-comments-o" aria-hidden="true"></i>120</a>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="add-to-cart-wish">
+                                                        <a class="btn btn-outline-danger btn-sm" href="#add-to-cart" title="Add to cart" alt="Add to cart" data-toggle="tooltip" data-placement="top"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</a>
+                                                        <a class="btn btn-outline-primary btn-sm" href="#add-to-wishlist" title="Add to wishlist" alt="Add to wishlist" data-toggle="tooltip" data-placement="top"><i class="fa fa-heart-o" aria-hidden="true"></i></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 top-selling-product">
+                                    <div class="card">
+                                        <div class="card-img-top card-img-top-250">
+                                            <img class="img-fluid" src="assets/images/products/thumb/03.png" alt="Carousel 4">
+                                        </div>
+                                        <div class="product-caption-rating">
+                                            <a href="#">Product label 2</a>
+                                            <p class="text text-xs-right"><strong>$525</strong></p>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <span class="star-rating">
+                                                        <span class="star-rating__wrap">
+                                                          <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                        </span>
+                                                    </span>
+                                                    <a href="#" class="text text-xs-right" data-toggle="tooltip" data-placement="top" title="Total Views" alt="Total Views"><i class="fa fa-comments-o" aria-hidden="true"></i>120</a>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="add-to-cart-wish">
+                                                        <a class="btn btn-outline-danger btn-sm" href="#add-to-cart" title="Add to cart" alt="Add to cart" data-toggle="tooltip" data-placement="top"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</a>
+                                                        <a class="btn btn-outline-primary btn-sm" href="#add-to-wishlist" title="Add to wishlist" alt="Add to wishlist" data-toggle="tooltip" data-placement="top"><i class="fa fa-heart-o" aria-hidden="true"></i></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 top-selling-product">
+                                    <div class="card">
+                                        <div class="card-img-top card-img-top-250">
+                                            <img class="img-fluid" src="assets/images/products/thumb/03.png" alt="Carousel 4">
+                                        </div>
+                                        <div class="product-caption-rating">
+                                            <a href="#">Product label 3</a>
+                                            <p class="text text-xs-right"><strong>$525</strong></p>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <span class="star-rating">
+                                                        <span class="star-rating__wrap">
+                                                          <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                          <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                          <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                        </span>
+                                                    </span>
+                                                    <a href="#" class="text text-xs-right" data-toggle="tooltip" data-placement="top" title="Total Views" alt="Total Views"><i class="fa fa-comments-o" aria-hidden="true"></i>120</a>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="add-to-cart-wish">
+                                                        <a class="btn btn-outline-danger btn-sm" href="#add-to-cart" title="Add to cart" alt="Add to cart" data-toggle="tooltip" data-placement="top"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</a>
+                                                        <a class="btn btn-outline-primary btn-sm" href="#add-to-wishlist" title="Add to wishlist" alt="Add to wishlist" data-toggle="tooltip" data-placement="top"><i class="fa fa-heart-o" aria-hidden="true"></i></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </section>
+                      </div>
                     </div>
                     <div class="row">
                         <section class="top-selling">
